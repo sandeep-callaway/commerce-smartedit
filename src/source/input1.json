@@ -1,0 +1,1088 @@
+
+{
+    "page": {
+      "uid": "homepage",
+      "uuid": "eyJpdGVtSWQiOiJob21lcGFnZSIsImNhdGFsb2dJZCI6ImNwcUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+      "title": "Homepage",
+      "template": "LandingPage2Template",
+      "typeCode": "ContentPage",
+      "name": "Homepage",
+      "robotTag": "INDEX_FOLLOW",
+      "contentSlots": {
+        "contentSlot": [
+          {
+            "slotId": "landscape_card",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uMkFTbG90LUhvbWVwYWdlIiwiY2F0YWxvZ0lkIjoiY3BxQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+            "position": "landscape_card",
+            "name": "landscape_card",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "landscape_card": {
+                        "columns": "4",
+                        "image_heights": 280,
+                        "_metadata": {
+                          "uid": "cs3454f2b053c05cac"
+                        },
+                        "wraps": true,
+                        "card": [
+                          {
+                            "image": {
+                              "uid": "bltc3a13fb250a52fdf",
+                              "created_at": "2023-11-08T16:03:41.412Z",
+                              "updated_at": "2023-11-10T13:06:53.164Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt78fe312f4dcc2750",
+                              "content_type": "image/jpeg",
+                              "file_size": "14799",
+                              "tags": [],
+                              "filename": "Image-866-536x354.jpeg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltc3a13fb250a52fdf/654e2addb4ccc3040a5950a2/Image-866-536x354.jpeg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "bltcbdc95076bcd1a75",
+                              "_version": 3,
+                              "title": "Test image",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs39d21a75a8ed77e3"
+                            },
+                            "alt_tag": "Landscape",
+                            "title": "Lorem Ipsum Dolor ",
+                            "description": "Lorem ipsum dolor sit amet consectetur. In facilisis lobortis congue congue mus tortor.Lorem ipsum dolor sit amet consectetur. In facilisis lobortis congue congue mus tortor.",
+                            "cta": [
+                              {
+                                "title": "Shop Category",
+                                "href": "/"
+                              },
+                              {
+                                "title": "Shop Look",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "image": {
+                              "uid": "blt89dbddd7b97d5834",
+                              "created_at": "2023-11-08T16:03:02.832Z",
+                              "updated_at": "2023-11-14T12:00:32.074Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "17632",
+                              "tags": [],
+                              "filename": "blur.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt89dbddd7b97d5834/655361606053f81e7dc92209/blur.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "bltcbdc95076bcd1a75",
+                              "_version": 2,
+                              "title": "Two_Column_Collection_(1).jpg",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs813fdbec4b5789c8"
+                            },
+                            "alt_tag": "Golf Cap",
+                            "title": "Lorem Ipsum Dolor",
+                            "description": "Lorem ipsum dolor sit amet consectetur. In facilisis lobortis congue congue must tortor.",
+                            "cta": [
+                              {
+                                "title": "Shop Later",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "image": {
+                              "uid": "bltc3a13fb250a52fdf",
+                              "created_at": "2023-11-08T16:03:41.412Z",
+                              "updated_at": "2023-11-10T13:06:53.164Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt78fe312f4dcc2750",
+                              "content_type": "image/jpeg",
+                              "file_size": "14799",
+                              "tags": [],
+                              "filename": "Image-866-536x354.jpeg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltc3a13fb250a52fdf/654e2addb4ccc3040a5950a2/Image-866-536x354.jpeg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "bltcbdc95076bcd1a75",
+                              "_version": 3,
+                              "title": "Test image",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs9639213e6d0506dd"
+                            },
+                            "alt_tag": "Landscape Card",
+                            "title": "Lorem Ipsum Dolor ",
+                            "description": "Lorem ipsum dolor sit amet consectetur.",
+                            "cta": [
+                              {
+                                "title": "Shop Now",
+                                "href": "/"
+                              },
+                              {
+                                "title": "Shop The Look",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "image": {
+                              "uid": "bltc3a13fb250a52fdf",
+                              "created_at": "2023-11-08T16:03:41.412Z",
+                              "updated_at": "2023-11-10T13:06:53.164Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt78fe312f4dcc2750",
+                              "content_type": "image/jpeg",
+                              "file_size": "14799",
+                              "tags": [],
+                              "filename": "Image-866-536x354.jpeg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltc3a13fb250a52fdf/654e2addb4ccc3040a5950a2/Image-866-536x354.jpeg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "bltcbdc95076bcd1a75",
+                              "_version": 3,
+                              "title": "Test image",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs5553b83467156384"
+                            },
+                            "alt_tag": "",
+                            "title": "Lorem Ipsum Dolor ",
+                            "description": "Lorem ipsum dolor sit amet consectetur. In facilisis lobortis congue congue mus tortor. ",
+                            "cta": [
+                              {
+                                "title": "Shop Now",
+                                "href": "/"
+                              },
+                              {
+                                "title": "Shop Later",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "image": {
+                              "uid": "bltc3a13fb250a52fdf",
+                              "created_at": "2023-11-08T16:03:41.412Z",
+                              "updated_at": "2023-11-10T13:06:53.164Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt78fe312f4dcc2750",
+                              "content_type": "image/jpeg",
+                              "file_size": "14799",
+                              "tags": [],
+                              "filename": "Image-866-536x354.jpeg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltc3a13fb250a52fdf/654e2addb4ccc3040a5950a2/Image-866-536x354.jpeg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "bltcbdc95076bcd1a75",
+                              "_version": 3,
+                              "title": "Test image",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs809015ec2949909c"
+                            },
+                            "alt_tag": "",
+                            "title": "Lorem Ipsum Dolor ",
+                            "description": "Lorem ipsum dolor sit amet consectetur. In facilisis lobortis congue congue mus tortor. Lorem ipsum dolor sit amet consectetur.",
+                            "cta": [
+                              {
+                                "title": "Shop Look",
+                                "href": "/"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                }
+              ]
+            }
+          },
+          {
+            "slotId": "portrait_card-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uMVNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "portrait_card",
+            "name": "portrait_card Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "portrait_card": {
+                        "card_count_per_row": 5,
+                        "wrap_cards": false,
+                        "_metadata": {
+                          "uid": "cs9a82e1020eaa912c"
+                        },
+                        "image_heights": 400,
+                        "card_box_shadow": true,
+                        "background_color": "black_100",
+                        "card_body_font_size": 0,
+                        "cards": [
+                          {
+                            "featured_image": {
+                              "uid": "bltc0d76954bde7754c",
+                              "created_at": "2023-11-08T16:02:42.322Z",
+                              "updated_at": "2023-11-14T12:03:25.517Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "35581",
+                              "tags": [],
+                              "filename": "dog.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltc0d76954bde7754c/6553620dcf923727be1b97db/dog.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "blt081f2592f62fbfb2",
+                              "_version": 2,
+                              "title": "homepage dog",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs5ad5123ae8e76e64"
+                            },
+                            "alt_tag": "",
+                            "heading": "Cloud Quarter Zip ",
+                            "message": "Our most versatile quarter zip from office hours to happy(ier) hours.Our most versatile quarter zip from office hours to happy(ier) hours.",
+                            "cta_link": [
+                              {
+                                "title": "Shop Now",
+                                "href": "/"
+                              },
+                              {
+                                "title": "Shop Later",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "featured_image": {
+                              "uid": "bltff74a6aa0e04c80f",
+                              "created_at": "2023-11-08T16:02:41.299Z",
+                              "updated_at": "2023-11-14T12:05:03.357Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "18008",
+                              "tags": [],
+                              "filename": "blue.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltff74a6aa0e04c80f/6553626fcf923762dc1b97e0/blue.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "blt081f2592f62fbfb2",
+                              "_version": 2,
+                              "title": "homepage blue",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs9d6be3e122bf9dab"
+                            },
+                            "alt_tag": "",
+                            "heading": "New Quarter Zip",
+                            "message": "Our most versatile quarter zip from office hours to happy(ier) hours.Our most versatile quarter zip from office hours to happy(ier) hours.",
+                            "cta_link": [
+                              {
+                                "title": "Shop The Category",
+                                "href": "/"
+                              },
+                              {
+                                "title": " Shop later",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "featured_image": {
+                              "uid": "bltc0d76954bde7754c",
+                              "created_at": "2023-11-08T16:02:42.322Z",
+                              "updated_at": "2023-11-14T12:03:25.517Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "35581",
+                              "tags": [],
+                              "filename": "dog.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltc0d76954bde7754c/6553620dcf923727be1b97db/dog.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "blt081f2592f62fbfb2",
+                              "_version": 2,
+                              "title": "homepage dog",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cse5388dc9a0b9da45"
+                            },
+                            "alt_tag": "",
+                            "heading": "Upgraded Quarter Zip",
+                            "message": "Your favorite lightweight, performance quarter zip for the course and beyond.",
+                            "cta_link": [
+                              {
+                                "title": "Shop Now",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "featured_image": {
+                              "uid": "bltff74a6aa0e04c80f",
+                              "created_at": "2023-11-08T16:02:41.299Z",
+                              "updated_at": "2023-11-14T12:05:03.357Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "18008",
+                              "tags": [],
+                              "filename": "blue.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltff74a6aa0e04c80f/6553626fcf923762dc1b97e0/blue.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "blt081f2592f62fbfb2",
+                              "_version": 2,
+                              "title": "homepage blue",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs323826e2e306abaa"
+                            },
+                            "alt_tag": "",
+                            "heading": "Upgraded Quarter Zip",
+                            "message": "Your favorite lightweight, performance quarter zip for the course and beyond.",
+                            "cta_link": [
+                              {
+                                "title": "Shop Now",
+                                "href": "/"
+                              }
+                            ]
+                          },
+                          {
+                            "featured_image": {
+                              "uid": "bltc0d76954bde7754c",
+                              "created_at": "2023-11-08T16:02:42.322Z",
+                              "updated_at": "2023-11-14T12:03:25.517Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "35581",
+                              "tags": [],
+                              "filename": "dog.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltc0d76954bde7754c/6553620dcf923727be1b97db/dog.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "blt081f2592f62fbfb2",
+                              "_version": 2,
+                              "title": "homepage dog",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs5c44e120c9642f3e"
+                            },
+                            "alt_tag": "",
+                            "heading": "Upgraded Quarter Zip",
+                            "message": "Your favorite lightweight, performance quarter zip for the course and beyond.",
+                            "cta_link": [
+                              {
+                                "title": "Shop Now",
+                                "href": "/"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                
+                }
+              ]
+            }
+          },
+          {
+            "slotId": "section_heading-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uMkJTbG90LUhvbWVwYWdlIiwiY2F0YWxvZ0lkIjoiY3BxQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+            "position": "section_heading",
+            "name": "section_heading Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "section_heading": {
+                        "heading": "<h1>Lorem Ipsum Dirac</h1>",
+                        "_metadata": {
+                          "uid": "cs1032251b928efc1a"
+                        },
+                        "content": "<p>Lorem Ipsum dirac sit amet consectetur. Enim consectetur odio egestas senectus enim. Eget nam et metus ipsum ut quis ac ut .Eget nam et met.</p>",
+                        "alignment": 0
+                      }
+                }
+              ]
+            }
+          },
+          {
+            "slotId": "half_width_banner-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uM1Nsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "half_width_banner",
+            "name": "half_width_bannerSection3 Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "half_width_banner": {
+                        "headline": "<p>Hi</p>",
+                        "_metadata": {
+                          "uid": "cs9b4dc44f6864f224"
+                        },
+                        "banner_detail": "<p>Lorem ipsum dolor sit amet consectetur et dui ante risus gravida ac. Fermentum enim elit pharetra tellus dolor pellentesque.</p>\n<ul>\n  <li>Lorem ipsum dolor sit amet consectetur</li>\n  <li>Et dui ante risus gravida ac. Fermentum enim elit pharetra tellus dolor pellentesque</li>\n</ul>\n",
+                        "alignment": "left",
+                        "desktop_image": {
+                          "uid": "blt2bde99631c4bc5ee",
+                          "created_at": "2023-11-08T16:02:56.295Z",
+                          "updated_at": "2023-11-08T16:02:56.295Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "blt78fe312f4dcc2750",
+                          "content_type": "image/jpeg",
+                          "file_size": "336242",
+                          "tags": [],
+                          "filename": "palm-trees.jpg",
+                          "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt2bde99631c4bc5ee/654bb130855e3a040a760a39/palm-trees.jpg",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": "blt9223de886ffa2906",
+                          "_version": 1,
+                          "title": "palm-trees.jpg"
+                        },
+                        "desktop_alt_tag": "",
+                        "tablet_image": null,
+                        "tablet_alt_tag": "",
+                        "mobile_image": {
+                          "uid": "bltaa7a94d5d571738b",
+                          "created_at": "2023-11-08T16:02:54.127Z",
+                          "updated_at": "2023-11-14T12:09:31.878Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "blt5a61aa7aeee6f9ff",
+                          "content_type": "image/jpeg",
+                          "file_size": "35581",
+                          "tags": [],
+                          "filename": "dog.jpg",
+                          "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltaa7a94d5d571738b/6553637b829051fd062c8a5f/dog.jpg",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": "blt9223de886ffa2906",
+                          "_version": 2,
+                          "title": "mobile_half_with_banner.png",
+                          "description": ""
+                        },
+                        "mobile_alt_tag": "",
+                        "component_height": 64,
+                        "button": {
+                          "title": "Shop now",
+                          "href": "/"
+                        },
+                        "button_type": "secondary-black"
+                      }
+                }
+        
+              ]
+            }
+          },
+          {
+            "slotId": "full_width_banner-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNVNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "full_width_banner",
+            "name": "full_width_banner",
+            "slotShared": false,
+            "components": {
+                "component":[
+                    {
+                        "full_width_banner": {
+                            "variation": "block-full-height",
+                            "banner_desktop_image_url": {
+                              "title": "",
+                              "href": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs01e6feaec1cba5b9"
+                            },
+                            "banner_tablet_image_url": {
+                              "title": "",
+                              "href": ""
+                            },
+                            "banner_smartphone_image_url": {
+                              "title": "",
+                              "href": ""
+                            },
+                            "image_height": null,
+                            "padding_left": [
+                              {
+                                "value": 0
+                              }
+                            ],
+                            "padding_top": [
+                              {
+                                "value": 0
+                              }
+                            ],
+                            "transparency": [
+                              {
+                                "value": 24
+                              }
+                            ],
+                            "floating_box_height": [
+                              {
+                                "value": 43
+                              }
+                            ],
+                            "heading": "Never Short On Style",
+                            "inner_text": "From total comfort to quick-drying performance, our shorts supply everything you need for the course and beyond !!",
+                            "text_color": "white",
+                            "position": "right",
+                            "block_background_color": "tm_neutral_800",
+                            "text_alignment": "right",
+                            "button": [
+                              {
+                                "title": "Shop Now",
+                                "href": "/"
+                              }
+                            ],
+                            "button_variants": "primary-white"
+                          }
+                    }
+                ]
+            }
+          },
+          {
+            "slotId": "subscription_banner-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "subscription_banner",
+            "name": "subscription_banner Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "subscription_banner": {
+                        "heading": "<h2>GET 20% OFF YOUR ORDER vgvg34</h2>",
+                        "_metadata": {
+                          "uid": "csc4cd56a8c045d667"
+                        },
+                        "main_content": "<span>Stay updated from TravisMathew on exclusive online and in-store offers, new product alerts, store events in your area and more. tgvttbnntt88999</span>",
+                        "email_field_label": "Capgemini",
+                        "button": {
+                          "title": "Join later",
+                          "href": "/"
+                        },
+                        "disclaimer": "<span>*For new customers only. Not valid on Member Exclusive product, luggage or sale items. Cannot be combined with additional offers.</span>",
+                        "submission_success_message": "<h2>THANK YOU. YOU'RE IN!</h2> <p class=\"p-sm\">Keep an eye out! If you’re a new email subscriber, your promo code will be sent via email.</p>",
+                        "submission_failure_message": ""
+                      }                
+                }         
+
+              ]
+            }
+          },
+          {
+            "slotId": "accordion-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "accordion",
+            "name": "accordion Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "accordion": {
+                        "title": "Questions? We Got You",
+                        "_metadata": {
+                          "uid": "cs30481585527faaac"
+                        },
+                        "accordion": [
+                          {
+                            "title": "<h4><span>If my event is outside of California, can I still rent a TravisMathew bus?</span></h4>",
+                            "_metadata": {
+                              "uid": "cs29514e8701a4400a"
+                            },
+                            "description": "<p>You can! Our fleet of 10 vehicles travels coast to coast, executing over 300 events each year. Location is not a problem.</p>"
+                          },
+                          {
+                            "title": "<h4>How does the retail experience work ? What if we want logoed apparel? What if some guests want their TravisMathew purchase same-day? Get to know more below</h4>",
+                            "_metadata": {
+                              "uid": "cs028913ebae864b0d"
+                            },
+                            "description": "Lorem ipsum dolor sit amet consectetur. Enim consectetur odio egestas senectus enim. Eget nam et metus ipsum ut quis ac ut."
+                          },
+                          {
+                            "title": "<h4>What if I don't have a very large budget ? Does TravisMathew have a vehicle for me under my preferred budget ?</h4>",
+                            "_metadata": {
+                              "uid": "cs85cefea41db83ffa"
+                            },
+                            "description": "<p>Absolutely !! . Travis Mathew offers a wide range of vehicles on a budget. Lorem ipsum . Check now for details .</p>"
+                          },
+                          {
+                            "title": "<h4>What comes with one of vehicles ? we want more than just a gifting experience-we want a party!</h4>",
+                            "_metadata": {
+                              "uid": "cs7a7d52bc5e12a5e1"
+                            },
+                            "description": "<p>Lorem Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</p>"
+                          },
+                          {
+                            "title": "<h4>Will a TravisMathew event increase brand visibility or our sales?</h4>",
+                            "_metadata": {
+                              "uid": "csdbcd333ba57aeefb"
+                            },
+                            "description": "Lorem Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+                          },
+                          {
+                            "title": "<h4>Seems awesome, but what about billing and receiving?</h4>",
+                            "_metadata": {
+                              "uid": "cs757211910729800c"
+                            },
+                            "description": "Lorem Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsum Lorem ipsum"
+                          }
+                        ]
+                      }
+                
+                }       
+        
+
+              ]
+            }
+          },
+          {
+            "slotId": "blog_carousel-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "blog_carousel",
+            "name": "blog_carousel Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "blog_carousel": {
+                        "wrap": false,
+                        "_metadata": {
+                          "uid": "cse9d5fa01eae64b22"
+                        },
+                        "blog_carousel_cards": [
+                          {
+                            "link": {
+                              "title": "Link1",
+                              "href": "/"
+                            },
+                            "_metadata": {
+                              "uid": "cs7c54bce429aa1e35"
+                            },
+                            "thumbnail_image": {
+                              "uid": "blt55895ba6c08d6573",
+                              "created_at": "2023-11-08T16:02:44.202Z",
+                              "updated_at": "2023-11-14T12:18:33.278Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "36526",
+                              "tags": [],
+                              "filename": "flower.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt55895ba6c08d6573/65536599cf923773311b97ed/flower.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": null,
+                              "_version": 2,
+                              "title": "Blogimage",
+                              "description": ""
+                            },
+                            "alt_tag": "",
+                            "blog_category": "Blog",
+                            "post_title": "Nam tincidunt ut tortor in dapibus. Donec et rutrum diam tortor in dapibus.",
+                            "date": "2022-01-12"
+                          },
+                          {
+                            "link": {
+                              "title": "Link2",
+                              "href": "/"
+                            },
+                            "_metadata": {
+                              "uid": "cscbb07321b47c27c9"
+                            },
+                            "thumbnail_image": {
+                              "uid": "blt55895ba6c08d6573",
+                              "created_at": "2023-11-08T16:02:44.202Z",
+                              "updated_at": "2023-11-14T12:18:33.278Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "36526",
+                              "tags": [],
+                              "filename": "flower.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt55895ba6c08d6573/65536599cf923773311b97ed/flower.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": null,
+                              "_version": 2,
+                              "title": "Blogimage",
+                              "description": ""
+                            },
+                            "alt_tag": "",
+                            "blog_category": "Archive",
+                            "post_title": "Nullam fringilla massa a odio maximus tristique. ",
+                            "date": "2022-01-07"
+                          },
+                          {
+                            "link": {
+                              "title": "Link3",
+                              "href": "/"
+                            },
+                            "_metadata": {
+                              "uid": "cse50519f11cdef1d8"
+                            },
+                            "thumbnail_image": {
+                              "uid": "blt55895ba6c08d6573",
+                              "created_at": "2023-11-08T16:02:44.202Z",
+                              "updated_at": "2023-11-14T12:18:33.278Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "36526",
+                              "tags": [],
+                              "filename": "flower.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt55895ba6c08d6573/65536599cf923773311b97ed/flower.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": null,
+                              "_version": 2,
+                              "title": "Blogimage",
+                              "description": ""
+                            },
+                            "alt_tag": "",
+                            "blog_category": "Blog",
+                            "post_title": "Off the Record - Lady Gang",
+                            "date": "2022-01-12"
+                          },
+                          {
+                            "link": {
+                              "title": "Link4",
+                              "href": "/"
+                            },
+                            "_metadata": {
+                              "uid": "cs6c38ae9aea44b454"
+                            },
+                            "thumbnail_image": {
+                              "uid": "blt55895ba6c08d6573",
+                              "created_at": "2023-11-08T16:02:44.202Z",
+                              "updated_at": "2023-11-14T12:18:33.278Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "36526",
+                              "tags": [],
+                              "filename": "flower.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt55895ba6c08d6573/65536599cf923773311b97ed/flower.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": null,
+                              "_version": 2,
+                              "title": "Blogimage",
+                              "description": ""
+                            },
+                            "alt_tag": "",
+                            "blog_category": "Blog",
+                            "post_title": "Off the Record - Lady Gang",
+                            "date": "2022-01-12"
+                          }
+                        ]
+                      }
+                }       
+        
+
+              ]
+            }
+          },
+          {
+            "slotId": "Section4Slot-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "Section4",
+            "name": "Section4 Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "short_banner": {
+                        "promo_icon": {
+                          "uid": "blta7fa8e825531b58b",
+                          "created_at": "2023-11-08T16:02:46.901Z",
+                          "updated_at": "2024-01-09T05:28:45.802Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "blt5a61aa7aeee6f9ff",
+                          "content_type": "image/svg+xml",
+                          "file_size": "4387",
+                          "tags": [],
+                          "filename": "logo.svg",
+                          "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blta7fa8e825531b58b/659cd98db6f924c364be379f/logo.svg",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": null,
+                          "_version": 2,
+                          "title": "CG_Rewards_2.png",
+                          "description": ""
+                        },
+                        "_metadata": {
+                          "uid": "cs3230e30321f26f1f"
+                        },
+                        "banner_title": "<h5>Earn Points on Every Purchase!</h5>",
+                        "banner_description": "<p>Plus get free shipping and returns on every order, just for signing up.</p>",
+                        "cta": {
+                          "title": "Join Now",
+                          "href": "/"
+                        },
+                        "cta_style": "primary-black",
+                        "alt_tag": "Short Banner Image",
+                        "block_background_color": "cg_neutral_400",
+                        "text_color": "white",
+                        "min_height": 180
+                      }                
+                }  
+            ]
+            }
+          },
+          {
+            "slotId": "Section4Slot-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "Section4",
+            "name": "Section4 Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "video_and_text_banner": {
+                        "desktop_position": "left",
+                        "video_poster_desktop": {
+                          "uid": "bltbbcc9dd76e3b5f63",
+                          "created_at": "2023-11-08T16:02:50.625Z",
+                          "updated_at": "2024-01-10T05:53:21.289Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "bltb9c8458b6555a02c",
+                          "content_type": "image/png",
+                          "file_size": "1390",
+                          "tags": [],
+                          "filename": "img.png",
+                          "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltbbcc9dd76e3b5f63/659e30d15a14f26d98181e6b/img.png",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": "bltb1a51f52ec6adf11",
+                          "_version": 2,
+                          "title": "VideoTextBanner.png",
+                          "description": ""
+                        },
+                        "_metadata": {
+                          "uid": "csfd7e1c238937611d"
+                        },
+                        "video_desktop": {
+                          "uid": "bltaa1df17a0f480ee2",
+                          "created_at": "2023-11-08T16:03:04.060Z",
+                          "updated_at": "2024-01-10T06:30:05.821Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "blt5a61aa7aeee6f9ff",
+                          "content_type": "image/jpeg",
+                          "file_size": "53813",
+                          "tags": [],
+                          "filename": "Mountain.jpg",
+                          "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltaa1df17a0f480ee2/659e396d57b479085eb07984/Mountain.jpg",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": "bltb1a51f52ec6adf11",
+                          "_version": 2,
+                          "title": "videoBannerDesktop.mp4",
+                          "description": ""
+                        },
+                        "video_poster_mobile": {
+                          "uid": "blt0a37799857237477",
+                          "created_at": "2023-11-08T16:03:10.084Z",
+                          "updated_at": "2023-11-08T16:03:10.084Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "blt78fe312f4dcc2750",
+                          "content_type": "image/jpeg",
+                          "file_size": "135547",
+                          "tags": [],
+                          "filename": "PosterMobile.jpg",
+                          "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt0a37799857237477/654bb13e05ff78040761dc55/PosterMobile.jpg",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": "bltb1a51f52ec6adf11",
+                          "_version": 1,
+                          "title": "PosterMobile.jpg"
+                        },
+                        "video_mobile": {
+                          "uid": "bltec3744d934787c75",
+                          "created_at": "2023-11-08T16:03:09.273Z",
+                          "updated_at": "2023-11-08T16:03:09.273Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "blt78fe312f4dcc2750",
+                          "content_type": "video/mp4",
+                          "file_size": "18470168",
+                          "tags": [],
+                          "filename": "videoBannerMobile.mp4",
+                          "url": "https://assets.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltec3744d934787c75/654bb13d45aab4040a60d9c2/videoBannerMobile.mp4",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": "bltb1a51f52ec6adf11",
+                          "_version": 1,
+                          "title": "videoBannerMobile.mp4"
+                        },
+                        "video_transcript": null,
+                        "video_closed_captions": null,
+                        "text_input": "<h2>Lorem ipsum dolor sit amet consectetur dui sapien leo</h2>",
+                        "button": {
+                          "title": "Shop Now",
+                          "href": "/"
+                        },
+                        "button_variants": "primary-black"
+                      }
+                }       
+                      ]
+            }
+          },
+          {
+            "slotId": "Section4Slot-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "Section4",
+            "name": "Section4 Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "reward_banner": {
+                        "title": "Reward Banner",
+                        "_metadata": {
+                          "uid": "csdf2a4a5208a8fc9a"
+                        },
+                        "reward_icon": {
+                          "uid": "bltbb67b00c5b5296bf",
+                          "created_at": "2023-11-08T16:02:49.452Z",
+                          "updated_at": "2023-11-08T16:02:49.452Z",
+                          "created_by": "blt78fe312f4dcc2750",
+                          "updated_by": "blt78fe312f4dcc2750",
+                          "content_type": "image/png",
+                          "file_size": "942",
+                          "tags": [],
+                          "filename": "TM_Rewards.png",
+                          "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/bltbb67b00c5b5296bf/654bb129ccca81040a850563/TM_Rewards.png",
+                          "ACL": [],
+                          "is_dir": false,
+                          "parent_uid": "blt13972d023b781290",
+                          "_version": 1,
+                          "title": "TM_Rewards.png"
+                        },
+                        "reward_details": "<h3>Earn 159 points with this purchase</h3><p></p><p>TM Rewards Members get free shipping and free return on all purchases</p>",
+                        "reward_signin": {
+                          "title": "Sign In",
+                          "href": "/"
+                        },
+                        "reward_signout": {
+                          "title": "Sign Up",
+                          "href": "/"
+                        },
+                        "cta_style": "Primary Black"
+                      }
+                }       
+        
+
+              ]
+            }
+          },
+          {
+            "slotId": "banner_carousel-Homepage",
+            "slotUuid": "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJjcHFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+            "position": "banner_carousel",
+            "name": "banner_carousel Slot for Homepage",
+            "slotShared": false,
+            "components": {
+              "component": [
+                {
+                    "banner_carousel": {
+                        "slide": [
+                          {
+                            "image": {
+                              "uid": "blta1ac4f3893ccd528",
+                              "created_at": "2023-11-08T16:03:42.913Z",
+                              "updated_at": "2023-11-14T12:20:55.284Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "25376",
+                              "tags": [],
+                              "filename": "hill.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blta1ac4f3893ccd528/65536627f8f77763f428fe41/hill.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "blt7803e1acfc1ec996",
+                              "_version": 2,
+                              "title": "ListingPageBanner_Shorts_(1).png",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs483674b0b1d8263f"
+                            },
+                            "alt_tag": "Image 1"
+                          },
+                          {
+                            "image": {
+                              "uid": "blt162ff1ef3126a431",
+                              "created_at": "2023-11-08T16:02:53.732Z",
+                              "updated_at": "2023-11-14T12:21:33.643Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "51228",
+                              "tags": [],
+                              "filename": "tree.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt162ff1ef3126a431/6553664d9f2b992f1ebc96d9/tree.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": null,
+                              "_version": 2,
+                              "title": "bannercarousel.png",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs4db61b529166b505"
+                            },
+                            "alt_tag": ""
+                          },
+                          {
+                            "image": {
+                              "uid": "blta1ac4f3893ccd528",
+                              "created_at": "2023-11-08T16:03:42.913Z",
+                              "updated_at": "2023-11-14T12:20:55.284Z",
+                              "created_by": "blt78fe312f4dcc2750",
+                              "updated_by": "blt5a61aa7aeee6f9ff",
+                              "content_type": "image/jpeg",
+                              "file_size": "25376",
+                              "tags": [],
+                              "filename": "hill.jpg",
+                              "url": "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blta1ac4f3893ccd528/65536627f8f77763f428fe41/hill.jpg",
+                              "ACL": [],
+                              "is_dir": false,
+                              "parent_uid": "blt7803e1acfc1ec996",
+                              "_version": 2,
+                              "title": "ListingPageBanner_Shorts_(1).png",
+                              "description": ""
+                            },
+                            "_metadata": {
+                              "uid": "cs64671286491d0a69"
+                            },
+                            "alt_tag": "Image 2"
+                          }
+                        ],
+                        "_metadata": {
+                          "uid": "csea94a42d823d3342"
+                        }
+                      }
+                }       
+        
+
+              ]
+            }
+          }
+        ]
+      },
+      "label": "homepage"
+    }
+  }
