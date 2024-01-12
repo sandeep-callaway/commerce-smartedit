@@ -143,61 +143,61 @@ export const getHalfWidthTransform = (cmp) => {
           },
           alignment: cmp?.alignment,
           banner_detail: cmp?.banner_detail,
-          desktop_image: {
-            uid: cmp?.desktop_image?.uid,
-            url: cmp?.desktop_image?.url,
-            ACL: cmp?.desktop_image?.ACL,
-            tags: cmp?.desktop_image?.tags,
-            title: cmp?.desktop_image?.title,
-            is_dir: cmp?.desktop_image?.is_dir,
-            filename: cmp?.desktop_image?.filename,
-            _version: cmp?.desktop_image?._version,
-            file_size: cmp?.desktop_image?.file_size,
-            created_at: cmp?.desktop_image?.created_at,
-            updated_at: cmp?.desktop_image?.updated_at,
-            created_by: cmp?.desktop_image?.created_by,
-            updated_by: cmp?.desktop_image?.updated_by,
-            parent_uid: cmp?.desktop_image?.parent_uid,
-            content_type: cmp?.desktop_image?.content_type,
-          },
+          //   desktop_image: {
+          //     uid: cmp?.desktop_image?.uid,
+          //     url: cmp?.desktop_image?.url,
+          //     ACL: cmp?.desktop_image?.ACL,
+          //     tags: cmp?.desktop_image?.tags,
+          //     title: cmp?.desktop_image?.title,
+          //     is_dir: cmp?.desktop_image?.is_dir,
+          //     filename: cmp?.desktop_image?.filename,
+          //     _version: cmp?.desktop_image?._version,
+          //     file_size: cmp?.desktop_image?.file_size,
+          //     created_at: cmp?.desktop_image?.created_at,
+          //     updated_at: cmp?.desktop_image?.updated_at,
+          //     created_by: cmp?.desktop_image?.created_by,
+          //     updated_by: cmp?.desktop_image?.updated_by,
+          //     parent_uid: cmp?.desktop_image?.parent_uid,
+          //     content_type: cmp?.desktop_image?.content_type,
+          //   },
           desktop_alt_tag: cmp?.desktop_alt_tag,
-          tablet_image: {
-            uid: cmp?.tablet_image?.uid,
-            created_at: cmp?.tablet_image?.created_at,
-            updated_at: cmp?.tablet_image?.updated_at,
-            created_by: cmp?.tablet_image?.created_by,
-            updated_by: cmp?.tablet_image?.updated_by,
-            content_type: cmp?.tablet_image?.content_type,
-            file_size: cmp?.tablet_image?.file_size,
-            tags: cmp?.tablet_image?.tags,
-            filename: cmp?.tablet_image?.filename,
-            url: cmp?.tablet_image?.url,
-            ACL: cmp?.tablet_image?.ACL,
-            is_dir: cmp?.tablet_image?.is_dir,
-            parent_uid: cmp?.tablet_image?.parent_uid,
-            _version: cmp?.tablet_image?._version,
-            title: cmp?.tablet_image?.title,
-            description: cmp?.tablet_image?.description,
-          },
+          //   tablet_image: {
+          //     uid: cmp?.tablet_image?.uid,
+          //     created_at: cmp?.tablet_image?.created_at,
+          //     updated_at: cmp?.tablet_image?.updated_at,
+          //     created_by: cmp?.tablet_image?.created_by,
+          //     updated_by: cmp?.tablet_image?.updated_by,
+          //     content_type: cmp?.tablet_image?.content_type,
+          //     file_size: cmp?.tablet_image?.file_size,
+          //     tags: cmp?.tablet_image?.tags,
+          //     filename: cmp?.tablet_image?.filename,
+          //     url: cmp?.tablet_image?.url,
+          //     ACL: cmp?.tablet_image?.ACL,
+          //     is_dir: cmp?.tablet_image?.is_dir,
+          //     parent_uid: cmp?.tablet_image?.parent_uid,
+          //     _version: cmp?.tablet_image?._version,
+          //     title: cmp?.tablet_image?.title,
+          //     description: cmp?.tablet_image?.description,
+          //   },
           tablet_alt_tag: cmp?.tablet_alt_tag,
-          mobile_image: {
-            uid: cmp?.mobile_image?.uid,
-            created_at: cmp?.mobile_image?.created_at,
-            updated_at: cmp?.mobile_image?.updated_at,
-            created_by: cmp?.mobile_image?.created_by,
-            updated_by: cmp?.mobile_image?.updated_by,
-            content_type: cmp?.mobile_image?.content_type,
-            file_size: cmp?.mobile_image?.file_size,
-            tags: cmp?.mobile_image?.tags,
-            filename: cmp?.mobile_image?.filename,
-            url: cmp?.mobile_image?.url,
-            ACL: cmp?.mobile_image?.ACL,
-            is_dir: cmp?.mobile_image?.is_dir,
-            parent_uid: cmp?.mobile_image?.parent_uid,
-            _version: cmp?.mobile_image?._version,
-            title: cmp?.mobile_image?.title,
-            description: cmp?.mobile_image?.description,
-          },
+          //   mobile_image: {
+          //     uid: cmp?.mobile_image?.uid,
+          //     created_at: cmp?.mobile_image?.created_at,
+          //     updated_at: cmp?.mobile_image?.updated_at,
+          //     created_by: cmp?.mobile_image?.created_by,
+          //     updated_by: cmp?.mobile_image?.updated_by,
+          //     content_type: cmp?.mobile_image?.content_type,
+          //     file_size: cmp?.mobile_image?.file_size,
+          //     tags: cmp?.mobile_image?.tags,
+          //     filename: cmp?.mobile_image?.filename,
+          //     url: cmp?.mobile_image?.url,
+          //     ACL: cmp?.mobile_image?.ACL,
+          //     is_dir: cmp?.mobile_image?.is_dir,
+          //     parent_uid: cmp?.mobile_image?.parent_uid,
+          //     _version: cmp?.mobile_image?._version,
+          //     title: cmp?.mobile_image?.title,
+          //     description: cmp?.mobile_image?.description,
+          //   },
           mobile_alt_tag: cmp?.mobile_alt_tag,
           component_height: cmp?.component_height,
           button: {
@@ -310,58 +310,58 @@ export const getShortBannerTransform = (cmp) => {
   return jsont.transform(cmp, rules);
 };
 
-// export const getLandscapeCardTransform = (cmp) => {
-//   const rules = [
-//     jsont.pathRule(".", (d) => {
-//       return {
-//         landscape_card: {
-//           columns: "4",
-//           image_heights: cmp.image_heights || 270,
-//           _metadata: {
-//             uid: cmp?._metadata?.uid,
-//           },
-//           wraps: cmp?.wraps,
-//           card: cmp?.card.map((el) => {
-//             return {
-//               //   image: {
-//               //     uid: el?.image?.uid,
-//               //     created_at: el?.image?.created_at,
-//               //     updated_at: el?.image?.updated_at,
-//               //     created_by: el?.image?.created_by,
-//               //     updated_by: el?.image?.updated_by,
-//               //     content_type: el?.image?.content_type,
-//               //     file_size: el?.image?.file_size,
-//               //     tags: el?.image?.tags,
-//               //     filename: el?.image?.filename,
-//               //     url: el?.image?.url,
-//               //     ACL: el?.image?.ACL,
-//               //     is_dir: el?.image?.is_dir,
-//               //     parent_uid: el?.image?.parent_uid,
-//               //     _version: el?.image?._version,
-//               //     title: el?.image?.title,
-//               //     description: el?.image?.description,
-//               //   },
-//               _metadata: {
-//                 uid: el?._metadata?.uid,
-//               },
-//               alt_tag: el?.alt_tag,
-//               title: el?.title,
-//               description: el?.description,
-//               cta: el?.cta.map((dl) => {
-//                 return {
-//                   title: dl?.title,
-//                   href: dl?.href,
-//                 };
-//               }),
-//             };
-//           }),
-//         },
-//       };
-//     }),
-//     jsont.identity,
-//   ];
-//   return jsont.transform(cmp, rules);
-// };
+export const getLandscapeCardTransform = (cmp) => {
+  const rules = [
+    jsont.pathRule(".", (d) => {
+      return {
+        landscape_card: {
+          columns: "4",
+          image_heights: cmp.image_heights || 270,
+          _metadata: {
+            uid: cmp?._metadata?.uid,
+          },
+          wraps: cmp?.wraps,
+          card: cmp?.card.map((el) => {
+            return {
+              //   image: {
+              //     uid: el?.image?.uid,
+              //     created_at: el?.image?.created_at,
+              //     updated_at: el?.image?.updated_at,
+              //     created_by: el?.image?.created_by,
+              //     updated_by: el?.image?.updated_by,
+              //     content_type: el?.image?.content_type,
+              //     file_size: el?.image?.file_size,
+              //     tags: el?.image?.tags,
+              //     filename: el?.image?.filename,
+              //     url: el?.image?.url,
+              //     ACL: el?.image?.ACL,
+              //     is_dir: el?.image?.is_dir,
+              //     parent_uid: el?.image?.parent_uid,
+              //     _version: el?.image?._version,
+              //     title: el?.image?.title,
+              //     description: el?.image?.description,
+              //   },
+              _metadata: {
+                uid: el?._metadata?.uid,
+              },
+              alt_tag: el?.alt_tag,
+              title: el?.title,
+              description: el?.description,
+              cta: el?.cta.map((dl) => {
+                return {
+                  title: dl?.title,
+                  href: dl?.href,
+                };
+              }),
+            };
+          }),
+        },
+      };
+    }),
+    jsont.identity,
+  ];
+  return jsont.transform(cmp, rules);
+};
 
 export const getAccordionTransform = (cmp) => {
   const rules = [
@@ -425,30 +425,30 @@ export const getBlogCarouselTransform = (cmp) => {
                 title: el?.link?.title || "Link1",
                 href: el?.link?.href || "/",
               },
-              thumbnail_image: {
-                uid: el?.thumbnail_image?.uid || "blt55895ba6c08d6573",
-                created_at:
-                  el?.thumbnail_image?.created_at || "2023-11-08T16:02:44.202Z",
-                updated_at:
-                  el?.thumbnail_image?.updated_at || "2023-11-14T12:18:33.278Z",
-                created_by:
-                  el?.thumbnail_image?.created_by || "blt78fe312f4dcc2750",
-                updated_by:
-                  el?.thumbnail_image?.updated_by || "blt5a61aa7aeee6f9ff",
-                content_type: el?.thumbnail_image?.content_type || "image/jpeg",
-                file_size: el?.thumbnail_image?.file_size || "36526",
-                tags: el?.thumbnail_image?.tags || [],
-                filename: el?.thumbnail_image?.filename || "flower.jpg",
-                url:
-                  el?.thumbnail_image?.url ||
-                  "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt55895ba6c08d6573/65536599cf923773311b97ed/flower.jpg",
-                ACL: el?.thumbnail_image?.ACL || [],
-                is_dir: el?.thumbnail_image?.is_dir || false,
-                parent_uid: el?.thumbnail_image?.parent_uid || null,
-                _version: el?.thumbnail_image?._version || 2,
-                title: el?.thumbnail_image?.title || "Blogimage",
-                description: el?.thumbnail_image?.description || "",
-              },
+              //   thumbnail_image: {
+              //     uid: el?.thumbnail_image?.uid || "blt55895ba6c08d6573",
+              //     created_at:
+              //       el?.thumbnail_image?.created_at || "2023-11-08T16:02:44.202Z",
+              //     updated_at:
+              //       el?.thumbnail_image?.updated_at || "2023-11-14T12:18:33.278Z",
+              //     created_by:
+              //       el?.thumbnail_image?.created_by || "blt78fe312f4dcc2750",
+              //     updated_by:
+              //       el?.thumbnail_image?.updated_by || "blt5a61aa7aeee6f9ff",
+              //     content_type: el?.thumbnail_image?.content_type || "image/jpeg",
+              //     file_size: el?.thumbnail_image?.file_size || "36526",
+              //     tags: el?.thumbnail_image?.tags || [],
+              //     filename: el?.thumbnail_image?.filename || "flower.jpg",
+              //     url:
+              //       el?.thumbnail_image?.url ||
+              //       "https://images.contentstack.io/v3/assets/blt00fb8bca61a5c45c/blt55895ba6c08d6573/65536599cf923773311b97ed/flower.jpg",
+              //     ACL: el?.thumbnail_image?.ACL || [],
+              //     is_dir: el?.thumbnail_image?.is_dir || false,
+              //     parent_uid: el?.thumbnail_image?.parent_uid || null,
+              //     _version: el?.thumbnail_image?._version || 2,
+              //     title: el?.thumbnail_image?.title || "Blogimage",
+              //     description: el?.thumbnail_image?.description || "",
+              //   },
               alt_tag: el?.alt_tag || "",
               blog_category: el?.blog_category || "Blog",
               post_title:
@@ -702,77 +702,77 @@ export const getVideoAndTextBannerTransform = (cmp) => {
   return jsont.transform(cmp, rules);
 };
 
-// export const getPortraitCardTransform = (cmp) => {
-//   const rules = [
-//     jsont.pathRule(".", (d) => {
-//       return {
-//         portrait_card: {
-//           _metadata: {
-//             uid: cmp?._metadata?.uid,
-//           },
-//           wrap_cards: cmp?.wrap_cards,
-//           image_heights: cmp?.image_heights,
-//           card_box_shadow: cmp?.card_box_shadow,
-//           background_color: cmp?.background_color,
-//           card_count_per_row: cmp?.card_count_per_row,
-//           card_body_font_size: cmp?.card_body_font_size,
-//           cards: cmp?.cards.map((el) => {
-//             return {
-//               //   image: {
-//               //     uid: el?.featured_image?.uid,
-//               //     created_at: el?.featured_image?.created_at,
-//               //     updated_at: el?.featured_image?.updated_at,
-//               //     created_by: el?.featured_image?.created_by,
-//               //     updated_by: el?.featured_image?.updated_by,
-//               //     content_type: el?.featured_image?.content_type,
-//               //     file_size: el?.featured_image?.file_size,
-//               //     tags: el?.featured_image?.tags,
-//               //     filename: el?.featured_image?.filename,
-//               //     url: el?.featured_image?.url,
-//               //     ACL: el?.featured_image?.ACL,
-//               //     is_dir: el?.featured_image?.is_dir,
-//               //     parent_uid: el?.featured_image?.parent_uid,
-//               //     _version: el?.featured_image?._version,
-//               //     title: el?.featured_image?.title,
-//               //     description: el?.featured_image?.description,
-//               //   },
-//               _metadata: {
-//                 uid: el?._metadata?.uid,
-//               },
-//               alt_tag: el?.alt_tag,
-//               title: el?.title,
-//               description: el?.description,
-//               cta_link: el?.cta_link.map((dl) => {
-//                 return {
-//                   title: dl?.title,
-//                   href: dl?.href,
-//                 };
-//               }),
-//             };
-//           }),
-//           //   cards: cmp?.cards.map((el) => {
-//           //     return {
-//           //       _metadata: {
-//           //         uid: el?._metadata?.uid,
-//           //       },
-//           //       alt_tag: el?.alt_tag,
-//           //       title: el?.title,
-//           //       description: el?.description,
-//           //       cta: el?.cta.map((dl) => {
-//           //         return {
-//           //           title: dl?.title,
-//           //           href: dl?.href,
-//           //         };
-//           //       }),
-//           //     };
-//           //   }),
-//         },
-//       };
-//     }),
-//     jsont.identity,
-//   ];
-//   return jsont.transform(cmp, rules);
-// };
+export const getPortraitCardTransform = (cmp) => {
+  const rules = [
+    jsont.pathRule(".", (d) => {
+      return {
+        portrait_card: {
+          _metadata: {
+            uid: cmp?._metadata?.uid,
+          },
+          wrap_cards: cmp?.wrap_cards,
+          image_heights: cmp?.image_heights,
+          card_box_shadow: cmp?.card_box_shadow,
+          background_color: cmp?.background_color,
+          card_count_per_row: cmp?.card_count_per_row,
+          card_body_font_size: cmp?.card_body_font_size,
+          cards: cmp?.cards.map((el) => {
+            return {
+              //   image: {
+              //     uid: el?.featured_image?.uid,
+              //     created_at: el?.featured_image?.created_at,
+              //     updated_at: el?.featured_image?.updated_at,
+              //     created_by: el?.featured_image?.created_by,
+              //     updated_by: el?.featured_image?.updated_by,
+              //     content_type: el?.featured_image?.content_type,
+              //     file_size: el?.featured_image?.file_size,
+              //     tags: el?.featured_image?.tags,
+              //     filename: el?.featured_image?.filename,
+              //     url: el?.featured_image?.url,
+              //     ACL: el?.featured_image?.ACL,
+              //     is_dir: el?.featured_image?.is_dir,
+              //     parent_uid: el?.featured_image?.parent_uid,
+              //     _version: el?.featured_image?._version,
+              //     title: el?.featured_image?.title,
+              //     description: el?.featured_image?.description,
+              //   },
+              _metadata: {
+                uid: el?._metadata?.uid,
+              },
+              alt_tag: el?.alt_tag,
+              title: el?.title,
+              description: el?.description,
+              cta_link: el?.cta_link.map((dl) => {
+                return {
+                  title: dl?.title,
+                  href: dl?.href,
+                };
+              }),
+            };
+          }),
+          //   cards: cmp?.cards.map((el) => {
+          //     return {
+          //       _metadata: {
+          //         uid: el?._metadata?.uid,
+          //       },
+          //       alt_tag: el?.alt_tag,
+          //       title: el?.title,
+          //       description: el?.description,
+          //       cta: el?.cta.map((dl) => {
+          //         return {
+          //           title: dl?.title,
+          //           href: dl?.href,
+          //         };
+          //       }),
+          //     };
+          //   }),
+        },
+      };
+    }),
+    jsont.identity,
+  ];
+  return jsont.transform(cmp, rules);
+};
 
 export const getProductIdsTransform = (productIds) => {
   const productIdsData = productIds?.split(" ");
