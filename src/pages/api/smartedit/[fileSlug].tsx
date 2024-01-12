@@ -13,8 +13,8 @@ import {
     getFullWidthTransform, 
     getProductCarasolTransform, 
     getSectionHeadingTransform, 
-    getLandscapeCardTransform,
-    getPortraitCardTransform,
+    // getLandscapeCardTransform,
+    // getPortraitCardTransform,
     getHalfWidthTransform,
     getSubscriptionBannerTransform,
     getAccordionTransform,
@@ -94,14 +94,14 @@ const handleTransformData = (sourceData: Record<string, any>) => {
                 const fullWidthData = getFullWidthTransform(eachComponent);
                 eachOutputFromInput.push(fullWidthData)
             }
-            if(isIncludeComponent(eachComponent?.uid,"landscape")){
-                const landcapeCardData = getLandscapeCardTransform(eachComponent)
-                eachOutputFromInput.push(landcapeCardData)
-            }
-            if(isIncludeComponent(eachComponent?.uid,"portrait")){
-                const portraitCardData = getPortraitCardTransform(eachComponent)
-                eachOutputFromInput.push(portraitCardData)
-            }
+            // if(isIncludeComponent(eachComponent?.uid,"landscape")){
+            //     const landcapeCardData = getLandscapeCardTransform(eachComponent)
+            //     eachOutputFromInput.push(landcapeCardData)
+            // }
+            // if(isIncludeComponent(eachComponent?.uid,"portrait")){
+            //     const portraitCardData = getPortraitCardTransform(eachComponent)
+            //     eachOutputFromInput.push(portraitCardData)
+            // }
             if(isIncludeComponent(eachComponent?.uid,"half_width")){
                 const HalfWidthData = getHalfWidthTransform(eachComponent)
                 eachOutputFromInput.push(HalfWidthData)
