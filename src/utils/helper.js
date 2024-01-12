@@ -35,7 +35,7 @@ export const getSectionHeadingTransform = (eachSection) => {
       return {
         section_heading: {
           heading: `<h1>${
-            d?.context?.heading || "Section1 Slot for Homepage"
+            d?.context?.name || "Section1 Slot for Homepage"
           }</h1>`,
           _metadata: {
             slotId: d?.context?.slotId,
